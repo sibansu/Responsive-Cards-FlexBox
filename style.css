@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(185, 166, 194);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: white;
+    width: 270px;
+    margin: 20px;
+    border-radius: 15px;
+}
+.cardim{
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.im1{
+    background-image: url('image1.jpg');
+}
+.im2{
+    background-image: url('image2.jpg');
+}
+.im3{
+    background-image: url('image3.jpg');
+}
+.card p{
+    padding: 10px;
+}
+.card h2{
+    padding: 10px;
+}
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 50px;
+    border-radius: 15px;
+}
+.card:hover{
+    cursor: pointer;
+    background-color:rgb(123, 112, 179);
+    color: white;
+    transition: all 0.5s ease;
+    transform: scale(1.14);
+}
